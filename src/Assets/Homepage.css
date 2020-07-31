@@ -1,0 +1,78 @@
+.header {
+  padding: 2rem 1rem;
+}
+.header h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+.header h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: rgb(129, 129, 129);
+  padding: 0.5rem 0;
+  margin-left: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.products-box {
+  background-color: #2fb5fc;
+  height: 40rem;
+}
+.products-box h2 {
+  font-size: 2rem;
+  color: white;
+  padding: 2.2rem 0;
+  margin-left: 1.2rem;
+  font-weight: 400;
+}
+.product-box-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card1,
+.card2,
+.card3 {
+  margin-left: 1.2rem;
+  background-color: white;
+  width: 20rem;
+  height: 12rem;
+  border-radius: 1.2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.card2,
+.card3 {
+  margin-left: 3rem;
+}
+.card1 h3 {
+  font-size: 1.5rem;
+  margin-top: 8.8rem;
+  margin-right: 13rem;
+}
+.card2 h3 {
+  font-size: 1.5rem;
+  margin-top: 8rem;
+  margin-left: 1rem;
+  width: 3rem;
+}
+.card3 h3 {
+  font-size: 1.5rem;
+  margin-top: 8.8rem;
+  margin-right: 5.2rem;
+}
+.card1-notification {
+  position: relative;
+  left: 18.5rem;
+  bottom: 11.4rem;
+  border: none;
+  outline: none;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 1rem;
+  background-color: red;
+}
+.card1-notification h6 {
+  font-size: 1rem;
+  color: white;
+  padding-top: 0.2rem;
+}
